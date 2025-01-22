@@ -7,7 +7,7 @@ on:
     branches: [ main, master ]
   
   schedule:
-    - cron: '04 19 * * 1-5'
+    - cron: '11 19 * * 1-5'
 
 jobs:
   test:
@@ -30,3 +30,11 @@ jobs:
         name: playwright-report
         path: playwright-report/
         retention-days: 30
+
+  test_schedule:
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+      - name: From Monday to Friday
+        if: github.event.schedule == '11 19 * * 1-5'
+        run: echo "Hello"
