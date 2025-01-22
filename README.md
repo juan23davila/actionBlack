@@ -3,6 +3,7 @@ To automate task of the Action Black web page
 
 ## Table of content
 - [Steps to create a Playwright project](#steps-to-create-a-playwright-project)
+- [Playwright test cases execution](#playwirght-tests-execution)
 
 
 ## Steps to create a Playwright project:
@@ -49,4 +50,16 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/juan23davila/actionBlack.git
 git push -u origin main
+```
+
+
+## Playwirght tests execution
+Into terminal run the following command:
+```
+npx playwright test
+```
+
+To check the test results run the following command:
+```
+npx playwright show-report
 ```
