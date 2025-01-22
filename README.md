@@ -2,9 +2,28 @@
 To automate task of the Action Black web page
 
 ## Table of content
+- [Steps to create a Playwright project](#steps-to-create-a-playwright-project)
 
 
 ## Steps to create a Playwright project:
+
+### Create repository in GitHub
+
+1. Visit github.com.
+2. create new repository.
+    2.2 Ensure you don't have selected the "Add a README file"
+
+### Create local folder
+
+Navigate using Git Batch and create folder
+```
+mkdir folderName
+```
+or
+```
+git clone https://github.com/gitUser/newRepo.git
+```
+
 
 ### Create Playwright project
 
