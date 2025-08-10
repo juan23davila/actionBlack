@@ -54,11 +54,10 @@ git push -u origin main
 
 ### Instal plugin
 
-```
+
 In VS Code -> Extensions
 
 Playwright Test for VSCode
-```
 
 
 ## Playwirght tests execution
