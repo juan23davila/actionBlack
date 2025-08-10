@@ -12,7 +12,6 @@ To automate task of the Action Black web page
 
 1. Visit github.com.
 2. create new repository.
-    2.2 Ensure you don't have selected the "Add a README file"
 
 ### Create local folder
 
