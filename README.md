@@ -52,6 +52,14 @@ git remote add origin https://github.com/juan23davila/actionBlack.git
 git push -u origin main
 ```
 
+### Instal plugin
+
+```
+In VS Code -> Extensions
+
+Playwright Test for VSCode
+```
+
 
 ## Playwirght tests execution
 Into terminal run the following command:
